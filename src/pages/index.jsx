@@ -8,7 +8,7 @@ import Image from "next/image";
 import Layout from "@/components/HomeLayout";
 import SEO from "@/components/Seo";
 import ReactGa from "react-ga";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // UA-267446080-1
 
 const id = "UA-267446080-1";
