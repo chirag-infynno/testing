@@ -1,0 +1,47 @@
+{
+  "name": "tailwind-blocks",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cypress": "npx cypress open --e2e --browser chrome",
+    "cypress:ci": "npx cypress run --e2e --browser chrome"
+  },
+  "dependencies": {
+    "@fontsource/cormorant": "^4.5.10",
+    "@fontsource/montserrat": "^4.5.14",
+    "@fontsource/nunito": "^4.5.12",
+    "@fontsource/work-sans": "^4.5.14",
+    "@headlessui/react": "^1.7.13",
+    "classnames": "^2.3.2",
+    "date-fns": "^2.29.3",
+    "formik": "^2.2.9",
+    "jszip": "^3.10.1",
+    "next": "13.2.4",
+    "next-share": "^0.20.0",
+    "raw-loader": "^4.0.2",
+    "react": "18.2.0",
+    "react-code-blocks": "^0.0.9-0",
+    "react-color": "^2.19.3",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.3.5",
+    "react-icons": "^4.8.0",
+    "react-loader-spinner": "^5.3.4",
+    "react-share": "^4.4.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "tailwind-scrollbar": "^3.0.0",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "cypress": "^12.8.1",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.4",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}
