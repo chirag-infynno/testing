@@ -27,6 +27,8 @@ export default function Home() {
         keywords="Tailwind CSS components, Tailwind CSS templates, Open-source Tailwind CSS, Ready-made components, Responsive components, Plain HTML templates, React templates, VueJs templates, Laravel-supported templates, SaaS website templates, SPA templates, Admin dashboard templates, NFT landing page templates, Startup product templates, Royalty-free components"
       />
       <div className="relative">
+        <h1 className="text-8xl text-red-600">user</h1>
+
         <Image src={HomeBg} className="z-0" fill alt="homebg" />
         <div className="relative">
           <Introduction />
